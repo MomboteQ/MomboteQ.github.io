@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MomboteQ</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="loading" id="loading">
+        <div class="animation"><div></div><div></div></div>
+    </div>
+    <header id="home">                     
+        <nav id="nav">
+            <p class="nav__logo" data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-out">MomboteQ</p>
+            <div class="nav__menu" data-aos="fade-down" data-aos-duration="600" data-aos-easing="ease-in-out">
+                <ul class="nav__list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__links" data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-out">
+                <a href="https://twitter.com/_inf1n17y" target="_blank" rel="noopener noreferrer"><i class="uil uil-twitter-alt"></i><span>Twitter</span></a>
+                <a href="https://github.com/MomboteQ" target="_blank" rel="noopener noreferrer"><i class="uil uil-github-alt"></i><span>Github</span></a>
+            </div>
+            <i class="uil uil-bars" id="nav-btn" data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-out"></i>
+            <div class="nav__menu_mobile menu__close" id="mobile-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav__links_mobile">
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="uil uil-twitter-alt"></i><span>Twitter</span></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="uil uil-github-alt"></i><span>Github</span></a>
+                </div>
+            </div>
+        </nav>
+        <div class="header__container" id="header-container">
+            <div class="header__text_section" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <span>Programmer & Hacker</span>
+                <h1>Hi, I'm<br>MomboteQ</h1>
+                <p>I love making websites, apps, scripts<br>and bots. See my projects.</p>
+                <a href="#projects" class="header__button button">My projects</a>
+            </div>
+            <div class="header__img_section" data-aos="fade-left" data-aos-duration="800">
+                <div class="header__circle_python circle"><i class="fab fa-python"></i></div>
+                <div class="header__circle_html circle"><i class="fab fa-html5"></i></div>
+                <div class="header__circle_css circle"><i class="fab fa-css3-alt"></i></div>
+                <div class="header__circle_nodejs circle"><i class="fab fa-node-js"></i></div>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <div class="section__cards_section" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-offset="200">
+            <div class="section__cards_card skills__close" id="front-end">
+                <div class="card__skills_header">
+                    <div>
+                        <h2>Front-End</h2>
+                        <p>4 years experience in Front-End development</p>
+                    </div>
+                    <i class="uil uil-brackets-curly"></i>
+                </div>
+                <div class="card__skills">
+                    <div class="card__skills_data">
+                        <div class="card__skills_text">
+                            <h3>HTML</h3>
+                            <span class="card__skills_counter" percent="90"></span>
+                        </div>
+                        <div class="card__skills_bar">
+                            <span class="card__skills_percentage card__skills_html"></span>
+                        </div>
+                    </div>
+                    <div class="card__skills_data">
+                        <div class="card__skills_text">
+                            <h3>CSS</h3>
+                            <span class="card__skills_counter" percent="70"></span>
+                        </div>
+                        <div class="card__skills_bar">
+                            <span class="card__skills_percentage card__skills_css"></span>
+                        </div>
+                    </div>
+                    <div class="card__skills_data">
+                        <div class="card__skills_text">
+                            <h3>JS</h3>
+                            <span class="card__skills_counter" percent="50"></span>
+                        </div>
+                        <div class="card__skills_bar">
+                            <span class="card__skills_percentage card__skills_js"></span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="section__cards_card skills__close" id="python">
+                <div class="card__skills_header">
+                    <div>
+                        <h2>Python</h2>
+                        <p>4 years experience in Python programming</p>
+                    </div>
+                    <i class="uil uil-database"></i>
+                </div>
+                <div class="card__skills">
+                    <div class="card__skills_data">
+                        <div class="card__skills_text">
+                            <h3>Data analysis</h3>
+                            <span class="card__skills_counter" percent="45"></span>
+                        </div>
+                        <div class="card__skills_bar">
+                            <span class="card__skills_percentage card__skills_data-analysis"></span>
+                        </div>
+                    </div>
+                    <div class="card__skills_data">
+                        <div class="card__skills_text">
+                            <h3>Tools making</h3>
+                            <span class="card__skills_counter" percent="70"></span>
+                        </div>
+                        <div class="card__skills_bar">
+                            <span class="card__skills_percentage card__skills_tools-making"></span>
+                        </div>
+                    </div>
+                    <div class="card__skills_data">
+                        <div class="card__skills_text">
+                            <h3>Discord.py</h3>
+                            <span class="card__skills_counter" percent="65"></span>
+                        </div>
+                        <div class="card__skills_bar">
+                            <span class="card__skills_percentage card__skills_discord-py"></span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="section__cards_card skills__close" id="ethical-hacking">
+                <div class="card__skills_header">
+                    <div>
+                        <h2>Ethical hacking</h2>
+                        <p>1 year experience in Ethical hacking</p>
+                    </div>
+                    <i class="uil uil-shield"></i>
+                </div>
+                <div class="card__skills">
+                    <div class="card__skills_data">
+                        <div class="card__skills_text">
+                            <h3>Data gathering</h3>
+                            <span class="card__skills_counter" percent="35"></span>
+                        </div>
+                        <div class="card__skills_bar">
+                            <span class="card__skills_percentage card__skills_data-gathering"></span>
+                        </div>
+                    </div>
+                    <div class="card__skills_data">
+                        <div class="card__skills_text">
+                            <h3>Computer networks</h3>
+                            <span class="card__skills_counter" percent="50"></span>
+                        </div>
+                        <div class="card__skills_bar">
+                            <span class="card__skills_percentage card__skills_computer-networks"></span>
+                        </div>
+                    </div>
+                    <div class="card__skills_data">
+                        <div class="card__skills_text">
+                            <h3>Penetration testing</h3>
+                            <span class="card__skills_counter" percent="40"></span>
+                        </div>
+                        <div class="card__skills_bar">
+                            <span class="card__skills_percentage card__skills_penetration-testing"></span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="section__text_section" data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-offset="200">
+            <h4 class="section__title">About me</h4>
+            <h1>About me and my programming history</h1>
+            <h4>I'm 16. I live in Poland. Programming and ethical hacking is my passion. I love making websites, apps, scripts and bots. My adventure with programming started when I was about 10, I wanted to make games and websites, then I started learning programming from YouTube courses. My first projects weren't pretty and advanced. After a while, I got bored of programming. When I was 12, I returned to programming. My projects have become more pretty and advanced. Then I started learning other programming languages. When I was 16, I started to be interested a Back-End (node.js) and ethical hacking.</h4>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="section__text_section" data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-offset="200">
+            <h4 class="section__title">Projects</h4>
+            <h1>My latest projects</h1>
+            <h4>Here you will find projects that I have recently completed or are working on.</h4>
+        </div>
+        <div class="section__cards_section" data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-offset="200">
+            <i class="uil uil-angle-left-b slide__nav" onclick="plusSlides(-1)"></i>
+            <div class="section__cards_projects">
+                <div class="section__cards_project">
+                    <img src="assets/img/getxno.png">
+                    <div>
+                        <h2>Get XNO</h2>
+                        <p>Best NANO faucet. Claim NANO every 30 minutes!</p>
+                        <a href="https://get-xno.com" target="_blank" rel="noopener noreferrer" class="section__cards_button button">Website</a>
+                    </div>
+                </div>
+                <div class="section__cards_project">
+                    <img src="assets/img/hash++.png">
+                    <div>
+                        <h2>HASH++</h2>
+                        <p>Best tool for cracking hashes using online database and brute force.</p>
+                        <a href="https://github.com/MomboteQ/HASH" target="_blank" rel="noopener noreferrer" class="section__cards_button button">Get tool</a>
+                    </div>
+                </div>
+            </div>
+            <i class="uil uil-angle-right-b slide__nav" onclick="plusSlides(1)"></i>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="section__cards_section" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-offset="200">
+            <div class="section__cards_card">
+                <div class="card__header">
+                    <div>
+                        <h2>Email</h2>
+                        <p>momboteq@tutanota.com</p>
+                    </div>
+                    <i class="uil uil-envelope-alt"></i>
+                </div>
+            </div>
+            <div class="section__cards_card">
+                <div class="card__header">
+                    <div>
+                        <h2>Discord</h2>
+                        <p>MomboteQ#8057</p>
+                    </div>
+                    <i class="fab fa-discord"></i>
+                </div>
+            </div>
+        </div>
+        <div class="section__text_section" data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-offset="200">
+            <h4 class="section__title">Contact</h4>
+            <h1>Forms of contact me</h1>
+            <h4>Do you have any questions? Do you want to contact for a different purpose? Here you have the possible forms of contact me.</h4>
+        </div>
+    </section>
+    <footer>
+        <p data-aos="fade-down" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-offset="-10">Created by MomboteQ</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
