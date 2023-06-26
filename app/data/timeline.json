@@ -1,0 +1,18 @@
+[
+    {
+        "title": "First website",
+        "date":  "2016"
+    },
+    {
+        "title": "Return to web development, learn Python and MySQL",
+        "date":  "2018"
+    },
+    {
+        "title": "Learn Express.js, Vue.js, Nuxt.js, MongoDB and Ethical Hacking",
+        "date":  "2022"
+    },
+    {
+        "title": "Learn React, Next.js, Tailwind CSS and Golang",
+        "date":  "2023"
+    }
+]

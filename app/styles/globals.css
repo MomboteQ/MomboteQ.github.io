@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --nav-height: 4.7rem;
+}
+
+* {
+    @apply font-sans;
+}
+
+@media (min-width: 768px) {
+    :root {
+        --nav-height: 5.8rem;
+    }
+}
+
+@media (min-width: 850px) {
+    :root {
+        --nav-height: 7.8rem;
+    }
+}
+
+.nav__menu a {
+    @apply font-medium text-ctp-text transition-colors duration-[.3s] relative hover:text-ctp-green hover:bg-ctp-mantle block w-full text-center py-[1.5rem] xl:inline xl:w-min xl:py-0 xl:hover:bg-inherit;
+}
+
+.social__icons a {
+    @apply text-[1.5rem] text-ctp-green transition-colors duration-[.3s] hover:text-ctp-text;
+}
+
+section {
+    @apply even:bg-ctp-base odd:bg-ctp-mantle p-[2rem] pt-[8rem] grid gap-y-[4rem] relative sm:p-[3rem] sm:pt-[9rem] md:p-[5rem] md:pt-[11rem]  lg:p-[9rem] lg:pt-[17rem] lg:gap-y-[6rem] xl:grid xl:grid-cols-[repeat(2,minmax(0,31rem))] xl:gap-x-[10rem] xl:grid-flow-dense xl:px-[3rem] xl:justify-center;
+}
+
+section div:nth-child(2),
+section div:nth-child(3) {
+    @apply xl:max-w-[34rem];
+}
+
+section:nth-child(odd) div:nth-child(2) {
+    @apply xl:col-[2];
+}
+
+.wave {
+    @apply absolute top-0 left-0 w-full overflow-hidden leading-[0];
+}
+
+.wave svg {
+    @apply relative block w-full h-[8rem] lg:h-[10rem];
+}
+
+section span {
+    @apply mb-[1.5rem] text-[.85rem] leading-[1.3rem] text-ctp-overlay1;
+}
+
+section h1 {
+    @apply text-ctp-text text-[2rem] font-medium leading-[2.8rem] mb-[2.5rem] lg:text-[2.3rem] lg:leading-[3rem];
+}
+
+section p {
+    @apply text-ctp-overlay1 text-[.85rem] font-normal leading-[1.3rem] md:text-[.95rem] md:leading-[1.35rem];
+}
+
+.timeline {
+    @apply grid grid-cols-[1fr_.9rem_1fr] gap-x-[1rem] mb-[2rem] odd:text-right;
+}
+
+.timeline__data {
+    @apply order-1;
+}
+
+.timeline:nth-child(even) .timeline__data {
+    @apply order-3;
+}
+
+.timeline__data h3 {
+    @apply text-ctp-text text-[1.15rem] leading-[1.5rem] mt-[-.4rem] mb-[.5rem];
+}
+
+.timeline span i {
+    @apply mr-[.25rem];
+}
+
+.timeline__separator {
+    @apply order-2;
+}
+
+.timeline__circle {
+    @apply w-[.9rem] h-[.9rem] rounded-full bg-ctp-green;
+}
+
+.timeline__line {
+    @apply w-[.125rem] h-[calc(100%+2rem)] bg-ctp-green mx-auto;
+}
+
+.timeline:last-child .timeline__line {
+    @apply hidden;
+}
+
+.timeline__empty {
+    @apply order-3;
+}
+
+.timeline:nth-child(even) .timeline__empty {
+    @apply order-1;
+}
+
+.icons div {
+    @apply m-0 flex flex-col text-[2rem] items-center;
+}
+
+.icons div p {
+    @apply text-[.8rem] mt-[.5rem] md:text-[.9rem];
+}
+
+.skills__icons div {
+    @apply w-[4.8rem] md:w-[5.4rem];
+}
+
+.projects__nav {
+    @apply absolute text-[2.5rem] m-0 block cursor-pointer text-ctp-text transition-colors duration-[.3s] top-[50%] translate-y-[-50%] hover:text-ctp-green;
+}
+
+.donate__icons div {
+    @apply w-[16rem] md:w-[17rem] cursor-pointer;
+}
+
+.donate__icons div span {
+    @apply text-[.8rem] mt-[.5rem] text-ctp-text break-all text-center leading-[1rem] mb-0;
+}
+
+.contact__icons div {
+    @apply w-[7.2rem] md:w-[7.8rem] cursor-pointer;
+}
